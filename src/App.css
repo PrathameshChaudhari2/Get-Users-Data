@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+}
+.galaxy {
+  padding-left: 530px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  padding-left: 100 px;
+}
+h4{
+  padding-left: 480px;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  padding: 12px 25px;
+}
+
+button:hover {
+  transition: 200ms;
+  scale: 1.2;
+  background-color: rgba(25, 21, 44, 0.812), 0.812), 0.812), 0.812), 0.812), 0.812), 0.812);
+}
+
+.column1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2 {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.column3 {
+  float: left;
+  width: 33%;
+}
+.row {
+  height: 50px;
+  padding: 25px 50px 20px 30px;
+}
+
+.container {
+  background-color: rgb(4, 186, 186);
+  
+  max-height: 150px;
+}
+.container:hover {
+  background-color: rgb(11, 191, 111);
+  transition: 3000ms;
+  /* max-height: 150px; */
+}
+
+.container2 {
+  margin-left: 100px;
+}
+
+.avatar {
+  border-radius: 5%;
+}
+
+h2 {
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+ 
+  max-width: 220px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 50px;
+  background-color: rgb(233, 229, 229);
+}
+
+.profile:hover {
+  transition: 0.3ms;
+  box-shadow: 0 8px 16px 0 rgb(52, 99, 102);
+  background-color: rgb(202, 19, 19);
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.email {
+  color: black;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.id {
+  color: black;
+}
+
+
